@@ -1,0 +1,123 @@
+body {
+ margin: 0;
+ padding: 0;
+ font-family: "Nunito", sans-serif;
+ background-color: rgb(244, 234, 228);
+ text-align: center;
+}
+
+header {
+ width: 100%;
+}
+
+header .banner-container {
+ height: 60px;
+ overflow: hidden;
+}
+
+header img {
+ width: 100%;
+}
+
+header .title-container {
+ position: absolute;
+ top: 27px;
+ background-color: rgb(149, 177, 75);
+ max-width: 400px;
+ padding: 8px 30px;
+ color: rgb(255, 255, 255);
+ border-radius: 0 40px 40px 0;
+}
+
+header .title-container h1 {
+ margin: 0;
+}
+
+h1,
+h2 {
+ text-transform: uppercase;
+}
+
+.section-container {
+ width: 90%;
+ margin: 40px auto;
+}
+
+section {
+ width: 48%;
+ display: inline-block;
+ margin: 0 4px;
+ vertical-align: top;
+}
+
+section.information .opening-times {
+ width: 90%;
+ border: 6px solid rgb(252, 178, 83);
+ box-sizing: border-box;
+ margin: 20px auto;
+}
+
+.opening-times hr {
+ background: rgb(252, 178, 83);
+ width: 50%;
+ height: 3px;
+ border-width: 0;
+}
+
+ul {
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+}
+
+.opening-times ul li {
+ padding: 5px;
+}
+
+section.menu {
+ background-color: rgb(246, 246, 246);
+}
+
+section.menu hr {
+ width: 50%;
+ height: 2px;
+ background: rgb(56, 37, 52);
+ border-width: 0;
+}
+
+section.menu ul {
+ padding: 20px !important;
+}
+
+.information img {
+ width: 100%;
+}
+
+section .special {
+ padding: 10px 50px;
+}
+
+.mustard-graphic {
+ position: absolute;
+ top: 200px;
+ right: 0;
+ background-color: rgb(239, 214, 174);
+ width: 130px;
+ height: 60px;
+ border-radius: 30px 0 0 30px;
+}
+
+.ketchup-graphic {
+ position: absolute;
+ top: 750px;
+ left: 0;
+ background-color: rgb(187, 43, 27);
+ width: 190px;
+ height: 60px;
+ border-radius: 0 30px 30px 0;
+}
+
+footer {
+ background-color: rgb(211, 211, 211);
+ padding: 40px;
+}
