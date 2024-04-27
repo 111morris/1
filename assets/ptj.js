@@ -183,5 +183,5 @@ themeButton.addEventListener("click", () => {
 // not done alert
 
 function notdone() {
-  alart("Still working on that \n Please use the 'Send Message' button. Thank you!")
+  alart("Still working on that \n Please use the 'Send Message' button. Thank you!");
 }
