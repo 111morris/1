@@ -146,9 +146,11 @@
 }
 
 .swiper-container-css-mode>.swiper-wrapper {
- overflow: auto;
- scrollbar-width: none;
- -ms-overflow-style: none;
+  overflow: auto;
+  -ms-overflow-style: none;
+}
+.swiper-container-css-mode>.swiper-wrapper::-webkit-scrollbar {
+  display: none;
 }
 
 .swiper-container-css-mode>.swiper-wrapper::-webkit-scrollbar {
