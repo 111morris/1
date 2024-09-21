@@ -325,6 +325,7 @@ img {
  width: 180%;
  height: 145%;
  padding-left: 30px;
+ width: 349px;
 }
 
 .home__data {
@@ -831,7 +832,14 @@ img {
  font-size: 1.25rem;
  margin-right: var(--mb-1-5);
 }
+.footer-contact-or {
+ display: flex;
+}
 
+.footer-contact-or span {
+ color: black;
+ display: flex;
+}
 .footer__social:hover {
  color: var(--first-color-lighter);
  transition: 0.3s;
@@ -850,6 +858,7 @@ img {
 .footer__social {
  color: #fff;
 }
+
 
 /*==================== Scroll Up ==================*/
 
