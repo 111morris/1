@@ -86,7 +86,7 @@ modalCloses.forEach((modalClose) => {
 });
 
 /*======================= Portfolio Swiper ===================*/
-var swiper = new Swiper(".portfolio__container", {
+let swiper = new Swiper(".portfolio__container", {
   cssMode: true,
   loop: true,
 
@@ -184,4 +184,20 @@ themeButton.addEventListener("click", () => {
 
 function notdone() {
   alart("Still working on that \n Please use the 'Send Message' button. Thank you!");
+}
+
+
+function emailSend() {
+  Email.send({
+    Host: "smtp.elasticemail.com",
+    Username: "mulandimorris1@gmail.com",
+    Password: "6B1AF9EDC809E8F91C246EC59C02AA7E53A4",
+    To: 'mulandimorris15@gmail.com',
+    From: "mulandimorris1@gmail.com",
+    Subject: "This is the subject",
+    Body: "And this is the body"
+  }).then(
+    message => alert(message)
+  );
+
 }
